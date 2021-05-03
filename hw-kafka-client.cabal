@@ -44,7 +44,7 @@ library
                         -Wincomplete-record-updates
                         -Wincomplete-uni-patterns
                         -Wredundant-constraints
-  extra-libraries:      rdkafka
+  extra-libraries:      rdkafka ssl crypto
   build-depends:        base >=4.6 && <5
                       , bifunctors
                       , bytestring
